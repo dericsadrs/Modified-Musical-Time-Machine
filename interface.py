@@ -9,7 +9,11 @@ from PIL import ImageTk, Image
 class MusicalTimeMachineGUI:
     def __init__(self):
         self.window = tk.Tk()
+        self.setup_program()
 
+
+
+    def setup_program(self):
         #Create an Object upon initialization
         self.time_machine = BillboardPlaylistCreator()
 
